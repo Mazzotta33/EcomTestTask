@@ -5,7 +5,7 @@
 
 1. **Клонируйте репозиторий:**
    ```bash
-   git clone [https://github.com/ваш-логин/название-репозитория.git](https://github.com/ваш-логин/название-репозитория.git)
+   git clone https://github.com/Mazzotta33/EcomTestTask.git
 
 2. **Перейдите в папку проекта:**
    ```bash
