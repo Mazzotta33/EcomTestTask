@@ -3,11 +3,13 @@ import type { Product } from '../types';
 
 interface ProductCardProps {
   product: Product;
+  onOpen: (product: Product) => void;
 }
 
-export const ProductCard: React.FC<ProductCardProps> = ({ product}) => {
+export const ProductCard: React.FC<ProductCardProps> = ({ product, onOpen }) => {
   return (
     <div 
+      onClick={() => onOpen(product)}
       className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow cursor-pointer flex flex-col h-full"
     >
       <img 
